@@ -1,0 +1,65 @@
+body{
+    background: #fff;
+    color: #333;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 400px;
+}
+#heading{
+    height: 170px;
+    position: relative;
+    background: #000;
+}
+#heading::before{
+    content: '';
+    background: url('../img/lights.jpg') no-repeat center center/ cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+#video{
+    height: 170px;
+    position: relative;
+    background: #000;
+}
+#video::before{
+    content: '';
+    background: url('../img/media.jpg') no-repeat center center/ cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+#video a{
+    color: #fff;
+}
+#header{
+    background: url('../img/image1.jpg') no-repeat center/cover;
+    background-position: 0 -200px;
+    height: 200px;
+    background-attachment: fixed;
+}
+#about img{
+    margin-top: -50px;
+    width: 400px;
+    height: 400px;
+}
+#questions .card{
+    background: #333;
+    color: #fff;
+}
+#main-footer{
+    background: #000;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    
+}
